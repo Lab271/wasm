@@ -1,0 +1,17 @@
+{
+  "entries": ["assembly/index.ts"],
+  "targets": {
+    "release": {
+      "outFile": "public/duckhunt.wasm",
+      "optimizeLevel": 3,
+      "shrinkLevel": 1
+    },
+    "debug": {
+      "outFile": "public/duckhunt.wasm",
+      "debug": true
+    }
+  },
+  "options": {
+    "runtime": "stub"
+  }
+}

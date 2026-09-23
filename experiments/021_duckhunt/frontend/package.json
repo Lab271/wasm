@@ -1,0 +1,28 @@
+{
+  "name": "duckhunt-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "asbuild": "asc --config asconfig.json --target release",
+    "asbuild:debug": "asc --config asconfig.json --target debug",
+    "dev": "npm run asbuild && vite",
+    "build": "npm run asbuild && tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run asbuild && vitest run"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "assemblyscript": "0.28.20",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  }
+}
