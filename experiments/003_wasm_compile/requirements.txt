@@ -1,2 +1,2 @@
-componentize-py>=0.17,<0.18
 spin-sdk>=5.0.0,<6
+componentize-py>=0.25.1,<0.26
