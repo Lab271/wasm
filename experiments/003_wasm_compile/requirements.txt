@@ -1,2 +1,2 @@
+spin-sdk>=5.0.0,<6
 componentize-py>=0.25.1,<0.26
-spin-sdk>=3.4,<4
